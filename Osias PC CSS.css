@@ -63,7 +63,13 @@ footer {
     ". . .";
   grid-area: ville-3;
 }
-
+/*margin image section2*/
+.margin-village-gauche {
+  margin: 50px 20px 20px 20px;
+}
+.margin-village-droite {
+  margin: 100px 0px 20px 20px;
+}
 /*taille des images de la ville*/
 .ville-2 {
   grid-area: ville-2;
