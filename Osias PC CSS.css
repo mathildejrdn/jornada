@@ -48,14 +48,15 @@ footer {
   height: calc(50vh);
 }
 
+//*grid up*//
 .circuit_ville {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.1fr 0.9fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
   grid-template-areas:
     "ville-1 ville-1 ville-3"
-    "ville ville ville-3"
+    "ville-2 ville-2 ville-3"
     ". . .";
 }
 
@@ -73,5 +74,22 @@ footer {
   grid-area: ville-3;
 }
 
-.ville { grid-area: ville; }
+.ville-2 { grid-area: ville-2; }
 
+.ville-debout{
+  width: 361px;
+  height: 749px;
+} 
+.ville-allonge{
+  width: 749px;
+  height: 361px;
+} 
+.ville-1{
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-2{
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-3{
+  background-color: rgba(0, 0, 0, 0.582);
+}
