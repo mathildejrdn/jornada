@@ -62,9 +62,42 @@ h6 {
   isolation: isolate;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--bg1);
+}
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
 /*CSS reset ne pas toucher au-dessus*/
 :root {
   --background: #ededed;
+  --accentColor: red;
+  --accentColor2: green;
+  --txtColor: #383838;
+  --size1: 5em;
 }
 
 /*Polices d'écritures
@@ -74,13 +107,40 @@ h6 {
 /* couleurs des textes*/
 
 h1 {
+  color: var(--accentColor2);
+  font-size: var(--size1);
 }
 
 h2 {
+  color: var(--accentColor);
 }
 
 h3 {
+  color: var(--accentColor);
 }
 
 p {
+  color: var(--accentColor2);
+}
+
+section {
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  padding: 6.25rem 8% 6.25rem 8%;
+  overflow: hidden;
+  display: block;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -0.25rem;
+  transform: translateZ(-0.063) scale(1.5);
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
 }
