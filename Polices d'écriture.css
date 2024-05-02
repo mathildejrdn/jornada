@@ -20,7 +20,10 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--background);
+  background-color: purple;
+  max-width: 100%;
+  min-height: 100%;
+  font-size: 16px;
 }
 /*
     5. Improve media defaults
@@ -74,10 +77,6 @@ h6 {
   font: inherit;
 }
 
-body {
-  min-height: 100vh;
-  color: var(--bg1);
-}
 ol,
 li {
   list-style: none;
@@ -121,26 +120,4 @@ h3 {
 
 p {
   color: var(--accentColor2);
-}
-
-section {
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  padding: 6.25rem 8% 6.25rem 8%;
-  overflow: hidden;
-  display: block;
-}
-
-section::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -0.25rem;
-  transform: translateZ(-0.063) scale(1.5);
-  z-index: -1;
-  transition: all 0.2s ease-in-out;
 }
