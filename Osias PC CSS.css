@@ -31,6 +31,15 @@ footer {
   height: calc(50vh);
 }
 
+/*flexbox section2*/
+#section2 article{
+display: flex;
+border: solid red 2px ;
+flex-wrap: ;
+flex-direction: column;
+box-sizing: border-box;
+}
+
 /*grid up*/
 .up_circuit_ville {  
     display: grid;
