@@ -50,29 +50,9 @@ footer {
 
 
 /*grid up*/
-.circuit_ville {  display: grid;
-  grid-template-columns: 300px 300px 300px; 
-  grid-template-rows: 300px 300px 300px; 
-  gap: 10px 10px; 
-  grid-template-areas: 
-    "ville-1 ville-1 ville-3"
-    "ville-2 ville-2 ville-3"
-    ". . .";
-}
 
-.ville-1 { grid-area: ville-1; }
+/*grid bottom*/
 
-.ville-3 {  display: grid;
-  grid-template-columns: 300px 300px 300px ; 
-  grid-template-rows: 300px 300px  300px ; 
-  gap: px px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: ville-3;
-}
 /*margin image section2*/
 .margin-village-gauche{
   margin: 50px 20px 20px 20px;
