@@ -61,6 +61,7 @@ li {
 }
 #menu.show-menu {
   transform: translateY(51px);
+  position: fixed;
 }
 
 .search {
