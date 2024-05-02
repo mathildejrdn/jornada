@@ -65,7 +65,7 @@ footer {
 .ville-3 {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: px 10px;
+  gap: px px;
   grid-auto-flow: row;
   grid-template-areas:
     ". . ."
@@ -74,6 +74,7 @@ footer {
   grid-area: ville-3;
 }
 
+/*taille des images de la ville*/
 .ville-2 { grid-area: ville-2; }
 
 .ville-debout{
