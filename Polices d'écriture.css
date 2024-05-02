@@ -121,25 +121,3 @@ h3 {
 p {
   color: var(--accentColor2);
 }
-
-section {
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  padding: 6.25rem 8% 6.25rem 8%;
-  overflow: hidden;
-  display: block;
-}
-
-section::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -0.25rem;
-  transform: translateZ(-0.063) scale(1.5);
-  z-index: -1;
-  transition: all 0.2s ease-in-out;
-}

@@ -1,36 +1,30 @@
 #section1 {
   background-color: brown;
-  width: calc(100vw);
   height: calc(50vh);
 }
 
 #section2 {
   background-color: blue;
-  width: calc(100vw);
   height: calc(100vh);
 }
 
 #section3 {
   background-color: pink;
-  width: calc(100vw);
   height: calc(50vh);
 }
 
 #section4 {
   background-color: aliceblue;
-  width: calc(100vw);
   height: calc(50vh);
 }
 
 #section5 {
   background-color: yellow;
-  width: calc(100vw);
   height: calc(50vh);
 }
 
 footer {
   background-color: red;
-  width: calc(100vw);
   height: calc(50vh);
 }
 
