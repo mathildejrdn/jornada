@@ -67,6 +67,8 @@ footer {
 .ville-debout {
   width: 361px;
   height: 749px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .ville-allonge {
   width: 749px;
