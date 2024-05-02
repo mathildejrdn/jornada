@@ -10,6 +10,14 @@ header {
   border: 1px solid #fff;
 }
 
+main {
+  max-width: 100%;
+  border: 5px solid hotpink;
+}
+.header-title {
+  line-height: 50px;
+  font-size: 22px;
+}
 ul,
 li {
   display: block;
@@ -104,7 +112,7 @@ li {
 
 .promotion {
   display: inline-block;
+  padding: 15px;
   width: 60%;
   margin-top: 20%;
-  padding: 25px;
 }
