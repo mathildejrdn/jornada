@@ -108,6 +108,7 @@ video {
 h1 {
   color: var(--accentColor2);
   font-size: var(--size1);
+  color: white;
 }
 
 h2 {

@@ -1,6 +1,9 @@
 #section1 {
-  background-color: brown;
-  height: calc(50vh);
+  background-image: url(./images/header.png);
+  height: calc(100vh);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
 }
 
 #section2 {
@@ -28,7 +31,7 @@ footer {
   height: calc(50vh);
 }
 
-/*grid up*/
+/*grid up
 .circuit_ville {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr 1fr;
@@ -56,7 +59,7 @@ footer {
     ". . ."
     ". . .";
   grid-area: ville-3;
-}
+}*/
 /*margin image section2*/
 .margin-village-gauche {
   margin: 50px 20px 20px 20px;
