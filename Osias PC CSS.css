@@ -32,7 +32,22 @@ footer {
 }
 
 /*grid up*/
-
+.up_circuit_ville {  
+    display: grid;
+    gap: 50px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ville-1 ville-1 ville-1 . ville-3 . ."
+      ". ville-2 ville-2 ville-2 . ville-3 . .";
+    justify-content: center; 
+    }
+  
+  .ville-2 { grid-area: ville-2; }
+  
+  .ville-1 { grid-area: ville-1; }
+  
+  .ville-3 { grid-area: ville-3; }
+  
 /*grid bottom*/
 .bottom_circuit_ville {  
   display: grid;
