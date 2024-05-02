@@ -34,7 +34,8 @@ footer {
 /*grid up*/
 
 /*grid bottom*/
-.bottom_circuit_ville {  display: grid;
+.bottom_circuit_ville {  
+  display: grid;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
