@@ -63,8 +63,8 @@ li {
   transform: translateY(-300px);
 }
 #menu.show-menu {
-  transform: translateY(51px);
-  position: fixed;
+  transform: translateY(0px);
+  position: sticky;
 }
 
 .search {
@@ -107,4 +107,8 @@ li {
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#section1 article {
+  border: solid 2px orange;
 }
