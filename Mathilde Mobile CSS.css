@@ -1,4 +1,5 @@
 /* haut de page*/
+
 header {
   padding: 0 12px;
   position: fixed;
@@ -9,14 +10,6 @@ header {
   border: 1px solid #fff;
 }
 
-main {
-  max-width: 100%;
-  border: 5px solid hotpink;
-}
-.header-title {
-  line-height: 50px;
-  font-size: 22px;
-}
 ul,
 li {
   display: block;
@@ -109,6 +102,9 @@ li {
   transform: translate(-50%, -50%);
 }
 
-#section1 article {
-  border: solid 2px orange;
+.promotion {
+  display: inline-block;
+  width: 60%;
+  margin-top: 20%;
+  padding: 25px;
 }
