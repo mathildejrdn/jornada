@@ -23,7 +23,7 @@ body {
   background-color: purple;
   max-width: 100%;
   min-height: 100%;
-  font-size: 16px;
+  font-size: var(--size4);
 }
 /*
     5. Improve media defaults
@@ -96,7 +96,10 @@ video {
   --accentColor: red;
   --accentColor2: green;
   --txtColor: #383838;
-  --size1: 5em;
+  --size1: 3.125em;
+  --size2: 2.5em;
+  --size3: 1.875em;
+  --size4: 1em;
 }
 
 /*Polices d'écritures
@@ -112,11 +115,13 @@ h1 {
 }
 
 h2 {
-  color: var(--accentColor);
+  font-size: var(--size2);
+  color: white;
 }
 
 h3 {
-  color: var(--accentColor);
+  color: white;
+  font-size: var(--size3);
 }
 
 p {

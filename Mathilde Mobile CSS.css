@@ -1,4 +1,5 @@
 /* haut de page*/
+
 header {
   padding: 0 12px;
   position: fixed;
@@ -109,6 +110,9 @@ li {
   transform: translate(-50%, -50%);
 }
 
-#section1 article {
-  border: solid 2px orange;
+.promotion {
+  display: inline-block;
+  padding: 15px;
+  width: 60%;
+  margin-top: 20%;
 }
