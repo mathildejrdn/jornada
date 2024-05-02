@@ -20,7 +20,10 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--background);
+  background-color: yellow;
+  max-width: 100%;
+  min-height: 100%;
+  font-size: 16px;
 }
 /*
     5. Improve media defaults
@@ -74,10 +77,6 @@ h6 {
   font: inherit;
 }
 
-body {
-  min-height: 100vh;
-  color: var(--bg1);
-}
 ol,
 li {
   list-style: none;
