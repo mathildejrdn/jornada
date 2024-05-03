@@ -145,3 +145,9 @@
   margin-bottom: 15px;
   justify-items: center;
 }
+/*btn background*/ 
+.Cuisine{
+  background-image: url(/images/cuisine.jpg);
+  background-position: center;
+  background-size: cover;
+}
