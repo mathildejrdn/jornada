@@ -133,9 +133,10 @@
 /*orentation du texte*/
 .v-texte-debout{
   align-content: end;
-  text-align: ;
   padding: 20px;
-  
+}
+.flexbox h3{
+  margin-bottom: 7px;
 }
 .v-texte-allonge{
   text-align: center;
