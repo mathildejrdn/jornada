@@ -125,5 +125,6 @@ h3 {
 }
 
 p {
-  color: var(--accentColor2);
+  font-size: var(--fsize4);
+  color: white;
 }
