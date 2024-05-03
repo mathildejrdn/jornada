@@ -157,8 +157,8 @@
   background-size: cover;
 }
 .Sportif{
-  background-image: url(/images/cuisine.jpg);
-  background-position: center;
+  background-image: url(/images/sportif.jpg);
+  background-position-x: 56%;
   background-size: cover;
 }
 .Famillial{
