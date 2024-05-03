@@ -42,7 +42,7 @@ footer {
 }
 .flex {
   border: solid greenyellow 2px;
-  display: flex;
+  display:flex;
   box-sizing: content-box;
   flex-direction: column;
   box-sizing: content-box;
