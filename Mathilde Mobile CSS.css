@@ -117,6 +117,8 @@ li {
   margin-top: 20%;
 }
 
+/*section 2 responsive*/
+
 #section2 article {
   display: flex;
   border: solid red 2px;
@@ -192,18 +194,25 @@ li {
 }
 .ville-3 {
   background-image: url("./images/travée\ d'azur.jpg");
-  object-fit: center;
-  background-size: center;
+  object-fit: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .ville-4 {
-  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url(./images/zaralek.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .ville-5 {
-  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url("./images/rêve\ d'emeraude.jpg");
+  object-fit: cover;
+  background-size: cover;
 }
 .ville-6 {
-  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url("./images/plaines\ ohnahra.jpg");
+  object-fit: cover;
+  background-size: cover;
 }
 .up_circuit_ville,
 .bottom_circuit_ville {
