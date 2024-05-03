@@ -26,11 +26,6 @@
   height: calc(50vh);
 }
 
-footer {
-  background-color: red;
-  height: calc(50vh);
-}
-
 /*flexbox section2*/
 #section2 article {
   display: flex;
