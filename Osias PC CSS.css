@@ -119,4 +119,12 @@
   .ville-6 {
     background-color: rgba(0, 0, 0, 0.582);
   }
+ 
+}
+/*text align*/
+.v-debout-texte{
+
+}
+.v-allonge-texte{
+  text-align: center
 }
