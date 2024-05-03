@@ -93,6 +93,7 @@ video {
 /*CSS reset ne pas toucher au-dessus*/
 :root {
   --background: #ededed;
+  --background2: #00000099;
   --accentColor: red;
   --accentColor2: green;
   --txtColor: #383838;
