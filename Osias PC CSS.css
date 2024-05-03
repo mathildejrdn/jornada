@@ -12,7 +12,6 @@
 
 #section3 {
   background-color: pink;
-  height: calc(50vh);
 }
 
 #section4 {
@@ -144,10 +143,4 @@
   padding-right: 60px;
   margin: 0px 39px;
   justify-items: center;
-}
-
-.theme button {
-  /* display: inline-flex; */
-  align-content: space-around;
-  justify-content: space-around;
 }
