@@ -119,4 +119,20 @@
   .ville-6 {
     background-color: rgba(0, 0, 0, 0.582);
   }
+ 
+}
+/*text align*/
+
+.v-texte-debout{
+  text-align: center;
+  align-content:center;
+}
+.v-texte-allonge{
+  align-content:end;
+}
+#section2 .v-texte-allonge h3{
+  margin-left: 15px;
+}
+#section2 .v-texte-allonge p{
+  margin-left: 15px;
 }
