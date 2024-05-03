@@ -33,7 +33,17 @@
   flex-direction: column;
   box-sizing: content-box;
   max-height: min-content;
+  
 }
+.flex {
+  border: solid greenyellow 2px;
+  display:flex;
+  box-sizing: content-box;
+  flex-direction: column;
+  box-sizing: content-box;
+  max-height: min-content;
+
+  }
 /*@media(min-width:$breack-s;)flex:1*/
 /*grid up*/
 .up_circuit_ville {
