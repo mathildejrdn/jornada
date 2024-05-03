@@ -117,6 +117,8 @@ li {
   margin-top: 20%;
 }
 
+/*section 2 responsive*/
+
 #section2 article {
   display: flex;
   border: solid red 2px;
