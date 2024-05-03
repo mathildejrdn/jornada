@@ -28,7 +28,6 @@
   /*flexbox section2*/
   #section2 article {
     display: flex;
-    border: solid red 2px;
     flex-direction: column;
     box-sizing: content-box;
     max-height: min-content;
