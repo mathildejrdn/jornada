@@ -135,9 +135,10 @@ footer {
   background-color: rgba(0, 0, 0, 0.582);
 }
 /*orentation du texte*/
-.ville-debout{
-text-align: ;
+.v-texte-debout{
+  align-content: end;
+  text-align: ;
 }
-.ville-allonge{
-text-align: ;
+.v-texte-allonge{
+  text-align: ;
 }
