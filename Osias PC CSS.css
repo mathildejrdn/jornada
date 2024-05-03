@@ -24,100 +24,101 @@
   background-color: yellow;
   height: calc(50vh);
 }
+@media all and (min-width: 1024px) {
+  /*flexbox section2*/
+  #section2 article {
+    display: flex;
+    border: solid red 2px;
+    flex-direction: column;
+    box-sizing: content-box;
+    max-height: min-content;
+  }
+  /*@media(min-width:$breack-s;)flex:1*/
+  /*grid up*/
+  .up_circuit_ville {
+    display: grid;
+    gap: 50px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ville-1 ville-1 ville-1 . ville-3 . ."
+      ". ville-2 ville-2 ville-2 . ville-3 . .";
+    justify-content: center;
+  }
 
-/*flexbox section2*/
-#section2 article {
-  display: flex;
-  border: solid red 2px;
-  flex-direction: column;
-  box-sizing: content-box;
-  max-height: min-content;
-}
-/*@media(min-width:$breack-s;)flex:1*/
-/*grid up*/
-.up_circuit_ville {
-  display: grid;
-  gap: 50px 35px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". ville-1 ville-1 ville-1 . ville-3 . ."
-    ". ville-2 ville-2 ville-2 . ville-3 . .";
-  justify-content: center;
-}
+  .ville-2 {
+    grid-area: ville-2;
+  }
 
-.ville-2 {
-  grid-area: ville-2;
-}
+  .ville-1 {
+    grid-area: ville-1;
+  }
 
-.ville-1 {
-  grid-area: ville-1;
-}
+  .ville-3 {
+    grid-area: ville-3;
+  }
 
-.ville-3 {
-  grid-area: ville-3;
-}
+  /*grid bottom*/
+  .bottom_circuit_ville {
+    display: grid;
+    gap: 0px 40px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ville-4 . ville-5 ville-5 . ."
+      ". ville-4 . . . . ."
+      ". ville-4 . ville-6 ville-6 . .";
+    justify-content: center;
+  }
 
-/*grid bottom*/
-.bottom_circuit_ville {
-  display: grid;
-  gap: 0px 40px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". ville-4 . ville-5 ville-5 . ."
-    ". ville-4 . . . . ."
-    ". ville-4 . ville-6 ville-6 . .";
-  justify-content: center;
-}
+  .ville-4 {
+    grid-area: ville-4;
+  }
 
-.ville-4 {
-  grid-area: ville-4;
-}
+  .ville-5 {
+    grid-area: ville-5;
+  }
 
-.ville-5 {
-  grid-area: ville-5;
-}
+  .ville-6 {
+    grid-area: ville-6;
+  }
 
-.ville-6 {
-  grid-area: ville-6;
-}
+  /*margin image section2*/
+  .margin-village-gauche {
+    margin: 50px 20px 20px 20px;
+  }
+  .margin-village-droite {
+    margin: 100px 0px 20px 20px;
+  }
+  /*taille des images de la ville*/
+  .ville-2 {
+    grid-area: ville-2;
+  }
 
-/*margin image section2*/
-.margin-village-gauche {
-  margin: 50px 20px 20px 20px;
-}
-.margin-village-droite {
-  margin: 100px 0px 20px 20px;
-}
-/*taille des images de la ville*/
-.ville-2 {
-  grid-area: ville-2;
-}
-
-.ville-debout {
-  width: 361px;
-  height: 749px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.ville-allonge {
-  width: 749px;
-  height: 361px;
-}
-.ville-1 {
-  background-color: rgba(0, 0, 0, 0.582);
-}
-.ville-2 {
-  background-color: rgba(0, 0, 0, 0.582);
-}
-.ville-3 {
-  background-color: rgba(0, 0, 0, 0.582);
-}
-.ville-4 {
-  background-color: rgba(0, 0, 0, 0.582);
-}
-.ville-5 {
-  background-color: rgba(0, 0, 0, 0.582);
-}
-.ville-6 {
-  background-color: rgba(0, 0, 0, 0.582);
+  .ville-debout {
+    width: 361px;
+    height: 749px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .ville-allonge {
+    width: 749px;
+    height: 361px;
+  }
+  .ville-1 {
+    background-color: rgba(0, 0, 0, 0.582);
+  }
+  .ville-2 {
+    background-color: rgba(0, 0, 0, 0.582);
+  }
+  .ville-3 {
+    background-color: rgba(0, 0, 0, 0.582);
+  }
+  .ville-4 {
+    background-color: rgba(0, 0, 0, 0.582);
+  }
+  .ville-5 {
+    background-color: rgba(0, 0, 0, 0.582);
+  }
+  .ville-6 {
+    background-color: rgba(0, 0, 0, 0.582);
+  }
 }
