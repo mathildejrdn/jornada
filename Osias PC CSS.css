@@ -134,6 +134,8 @@
 .v-texte-debout{
   align-content: end;
   text-align: ;
+  padding: 20px;
+  
 }
 .v-texte-allonge{
   text-align: center;
