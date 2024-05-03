@@ -1,4 +1,4 @@
-#section1 { 
+#section1 {
   background-image: url(./images/header.png);
   height: calc(100vh);
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   background-color: yellow;
   height: calc(50vh);
 }
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1024px) {
   /*flexbox section2*/
   #section2 article {
     display: flex;
