@@ -5,9 +5,8 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
-  background: orange;
+  background-color: var(--background2);
   box-sizing: border-box;
-  border: 1px solid #fff;
 }
 
 main {
@@ -25,9 +24,9 @@ li {
 li {
   height: 50px;
   line-height: 50px;
-  padding: 0 12px;
   border-bottom: 1px solid #777;
-  background: #111;
+  color: white;
+  background: var(--background2);
 }
 
 #menu-button {
@@ -126,7 +125,6 @@ li {
   max-height: min-content;
 }
 .flex {
-  border: solid greenyellow 2px;
   display: flex;
   box-sizing: content-box;
   flex-direction: column;
