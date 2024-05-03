@@ -123,9 +123,9 @@
 }
 /*text align*/
 .v-texte-debout{
-  text-align: center
-  
+  text-align: center;
+  align-content:center;
 }
 .v-texte-allonge{
-  
+  align-content:end;
 }
