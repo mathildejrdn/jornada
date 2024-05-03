@@ -172,7 +172,8 @@
   background-size: cover;
 }
 .Culture{
-  background-image: url(/images/cuisine.jpg);
+  background-image: url(/images/ritual.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: auto;
 }
+/*text align*/
