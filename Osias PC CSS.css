@@ -145,6 +145,9 @@
   margin-bottom: 15px;
   justify-items: center;
 }
+.theme button {
+text-shadow: 3px 3px 9px #000000;
+}
 /*btn background*/ 
 .Cuisine{
   background-image: url(/images/cuisine.jpg);
