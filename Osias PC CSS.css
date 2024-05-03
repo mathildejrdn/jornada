@@ -122,9 +122,10 @@
  
 }
 /*text align*/
-.v-debout-texte{
-
-}
-.v-allonge-texte{
+.v-texte-debout{
   text-align: center
+  
+}
+.v-texte-allonge{
+  
 }
