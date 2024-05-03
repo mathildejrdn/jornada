@@ -181,13 +181,20 @@ li {
   height: 361px;
 }
 .ville-1 {
-  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url("./images/wp11717197-world-of-warcraft-dragonflight-wallpapers.jpg");
+  object-fit: cover;
+  background-size: cover;
 }
 .ville-2 {
-  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url("./images/rivages\ de\ l'éveil.jpg");
+  object-fit: cover;
+  background-size: cover;
 }
 .ville-3 {
-  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url("./images/travée\ d'azur.jpg");
+  object-fit: center;
+  background-size: center;
+  background-repeat: no-repeat;
 }
 .ville-4 {
   background-color: rgba(0, 0, 0, 0.582);
