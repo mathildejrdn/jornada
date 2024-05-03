@@ -236,27 +236,17 @@ footer {
   background-position: bottom;
 }
 
+#fuber img {
+  width: 10%;
+  height: 10%;
+}
+
 .flexf {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
   padding: 5px;
-}
-
-#flogo {
-  padding: 5px;
-  margin: auto;
-}
-
-.image-container {
-  display: flex;
-  margin: auto;
-}
-
-.image-container img {
-  width: 20%;
-  height: auto;
 }
 
 #ftxt {
@@ -293,10 +283,6 @@ footer {
   margin: auto;
   text-align: center;
   padding: 5px;
-}
-
-#fuber img {
-  width: 5%;
 }
 
 .fbutton {
