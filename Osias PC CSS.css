@@ -29,13 +29,11 @@
   /*flexbox section2*/
   #section2 article {
     display: flex;
-    border: solid red 2px;
     flex-direction: column;
     box-sizing: content-box;
     max-height: min-content;
   }
   .flex {
-    border: solid greenyellow 2px;
     display: flex;
     box-sizing: content-box;
     flex-direction: column;
@@ -102,32 +100,44 @@
     grid-area: ville-2;
   }
 
-  .ville-debout {
-    width: 361px;
-    height: 749px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  .ville-allonge {
-    width: 749px;
-    height: 361px;
-  }
-  .ville-1 {
-    background-color: rgba(0, 0, 0, 0.582);
-  }
-  .ville-2 {
-    background-color: rgba(0, 0, 0, 0.582);
-  }
-  .ville-3 {
-    background-color: rgba(0, 0, 0, 0.582);
-  }
-  .ville-4 {
-    background-color: rgba(0, 0, 0, 0.582);
-  }
-  .ville-5 {
-    background-color: rgba(0, 0, 0, 0.582);
-  }
-  .ville-6 {
-    background-color: rgba(0, 0, 0, 0.582);
-  }
+.ville-debout {
+  width: 361px;
+  height: 749px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ville-allonge {
+  width: 749px;
+  height: 361px;
+}
+.ville-1 {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-2 {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-3 {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-4 {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-5 {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.ville-6 {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+/*orentation du texte*/
+.v-texte-debout{
+  align-content: end;
+  padding: 20px;
+}
+.flexbox h3{
+  margin-bottom: 7px;
+}
+.v-texte-allonge{
+  text-align: center;
+  align-content:center
+}
 }
