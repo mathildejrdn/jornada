@@ -180,6 +180,17 @@ text-shadow: 3px 3px 9px #000000;
   background-size: auto;
 }
 /*section4*/
+/*align mini img*/
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  justify-content: center;
+}
+/* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
