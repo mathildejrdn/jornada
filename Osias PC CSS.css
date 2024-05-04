@@ -136,6 +136,13 @@
   margin-left: 15px;
 } 
 /*section3*/
+/*flex*/
+.theme {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .theme button {
   padding-bottom: 320px;
   padding-left: 60px;
@@ -144,6 +151,7 @@
   margin-bottom: 15px;
   justify-items: center;
 }
+/*text*/
 .theme button {
 text-shadow: 3px 3px 9px #000000;
 }
