@@ -227,6 +227,8 @@ text-shadow: 3px 3px 9px #000000;
   color: white;
   font-size: 20px;
 }
+img#expandedImg {
+  margin-bottom: 20px;}
 
 /* Closable button inside the expanded image */
 .closebtn {
