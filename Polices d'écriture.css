@@ -112,6 +112,7 @@ video {
 h1 {
   font-size: var(--size1);
   color: white;
+  text-shadow: #fc0 1px 0 10px;
 }
 
 h2 {
