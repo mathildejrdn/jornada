@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./formulaire_davis.css" />
+    <link rel="stylesheet" href="./Polices d'écriture.css" />
+    <title>Formulaire pour un devis</title>
+</head>
+<body>
+    <h1>Formulaire pour un devis</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="idestination">Destination</label>
+            <input type="button" id="reve_emeraude" value="Rêve d’Emeraude">
+            <input type="button" id="thaldrazus"value="Thaldrazus">
+            <input type="button" id="travee_d_azur"value="Travée d’Azur">
+            <input type="button" id="grottes_de_zaralek"value="Grottes de zaralek">
+            <input type="button" id="plaines_d_ohn"value="Plaines d’Ohn’ahra">
+            <input type="button" id="rivage_de_level"value="Rivages de l’Eveil">
+        </p>
+        <p>Ville de départ</p>
+        <p><label for="idate"></label>date <input type="date" name="idate" required ></p>
+        <p><label for="ivoyageurs">Voyageurs</label> <input type= "number" name="ienvies" id="ivoyageurs" min="1"></p>
+        <p><label for="inom">Nom</label>Nom  <input type="text" name="" id="inom" required></p>
+        <p><label for="iprenom">Prénom</label><input type="text" name="" id="iprenom" required></p>
+        <p><label for="iemail">Adresse e-mail</label><input type="email" name="" id="iemail" required></p>
+        <p>Vos envies</p>
+        <p><input type="submit"> <input type="reset"></p>
+    </form>
+</body>
+</html>
