@@ -12,12 +12,10 @@
 
 #section3 {
   background-color: pink;
-  height: calc(50vh);
 }
 
 #section4 {
   background-color: aliceblue;
-  height: calc(50vh);
 }
 
 #section5 {
@@ -85,6 +83,7 @@
   }
   .up_circuit_ville {
     margin: 15px;
+    margin-right: 102px;
   }
   /*taille des images de la ville*/
   .ville-2 {
@@ -133,4 +132,116 @@
 }
 #section2 .v-texte-allonge p {
   margin-left: 15px;
+}
+/*section3*/
+/*flex*/
+.theme {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.theme button {
+  width: 231px;
+  height: 367.67px;
+  margin: 0px 12px;
+  margin-bottom: 15px;
+  justify-items: center;
+}
+/*text*/
+.theme button {
+  text-shadow: 3px 3px 9px #000000;
+}
+/*btn background*/
+.Cuisine {
+  background-image: url(/images/cuisine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Nature {
+  background-image: url(/images/nature-bg-Season-1.5-Dragons-of-Light-Key-Art-1024x647.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Sportif {
+  background-image: url(/images/sportif.jpg);
+  background-position-x: 56%;
+  background-size: cover;
+}
+.Famillial {
+  background-image: url(/images/familial.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Artisanat {
+  background-image: url(/images/artisanat.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Culture {
+  background-image: url(/images/ritual.jpg);
+  background-position: center;
+  background-size: auto;
+}
+/*section4*/
+/*align mini img*/
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  justify-content: center;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+img#expandedImg {
+  margin-bottom: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }

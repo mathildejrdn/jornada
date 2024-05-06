@@ -84,17 +84,34 @@
       </article>
     </div>
     <div id="section3"><!--Ajouter les images, Osias-->
-      <h1>Voyages par thématique</h1>
+      <h2>Voyages par thématique</h2>
       <div class="theme">
-        <button>Cuisine</button>
-        <button>Nature</button>
-        <button>Sportif</button>
-        <button>Famillial</button>
-        <button>Artisanat</button>
-        <button>Culture</button>
+        <button class="Cuisine"><h3>Cuisine</h3></button>
+        <button class="Nature"><h3>Nature</h3></button>
+        <button class="Sportif"><h3>Sportif</h3></button>
+        <button class="Famillial"><h3>Famillial</h3></button>
+        <button class="Artisanat"><h3>Artisanat</h3></button>
+        <button class="Culture"><h3>Culture</h3></button>
       </div>
-    <div id="section4">Les 2 agences de Voyage</div>
-    <div id="section5">Avis client</div>
+    </div>
+    <div id="section4">
+      <h2>Nos agences à côté de chez vous</h2>
+      <div class="row">
+        <div class="column"><img src="/images/Orgrimar.jpg" alt="Orgrimar" style="max-width: 100px;" onclick="myFunction(this);">
+        </div>
+        <div class="column"><img src="/images/hurlevent.jpg" alt="Hurlevent" style="max-width:100px" onclick="myFunction(this);">
+        </div>
+      </div>
+      <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:55%">
+        <div id="imgtext"></div>
+      </div>
+    </div>
+    
+    <div id="section5">Avis client
+
+    </div>
     <!--bas de page-->
     <footer>
       <div class="flexf">
@@ -118,7 +135,6 @@
             width="20%" />&nbsp;&nbsp;
           </div>
           <h2>Voyage en Azeroth</h2>
-          </div>
         </section>
       </div>
     </footer>
@@ -132,5 +148,14 @@
       menu.classList.toggle("show-menu");
       menuButton.classList.toggle("close");
     });
+    
+    //Galerie d’images à onglets section4
+    function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style="display: flex; justify-content: center;";
+    }
   </script>
 </html>
