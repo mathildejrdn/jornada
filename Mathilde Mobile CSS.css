@@ -72,7 +72,7 @@
   background-size: cover;
 }
 .ville-3 {
-  background-image: url("./images/travée\ d'azur.jpg");
+  background-image: url("./images/travee.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@
   background-repeat: no-repeat;
 }
 .ville-5 {
-  background-image: url("./images/rêve\ d'emeraude.jpg");
+  background-image: url("./images/reve.jpg");
   object-fit: cover;
   background-size: cover;
 }

@@ -50,17 +50,17 @@
   height: 361px;
 }
 .ville-1 {
-  background-image: url("./images/sables.jpg");
+  background-image: url("./images/marché\ zaralek.jpg");
   object-fit: cover;
   background-size: cover;
 }
 .ville-2 {
-  background-image: url("./images/académie.jpg");
+  background-image: url("./images/escargot.png");
   object-fit: cover;
   background-size: cover;
 }
 .ville-3 {
-  background-image: url("./images/valdrakken.jpg");
+  background-image: url("./images/aberrus.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 }
 
 #section1 {
-  background-image: url(./images/travee.jpg);
+  background-image: url(./images/zaralek.jpg);
   height: calc(100vh);
   background-repeat: no-repeat;
   background-position: center;
@@ -194,7 +194,7 @@
   background-size: cover;
 }
 .Illustration2 {
-  background-image: url(/images/illustration2\ a.jpg);
+  background-image: url(/images/illustration2\ b.jpg);
   background-position: center;
   background-size: cover;
 }

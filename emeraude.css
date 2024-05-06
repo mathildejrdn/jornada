@@ -50,17 +50,17 @@
   height: 361px;
 }
 .ville-1 {
-  background-image: url("./images/sables.jpg");
+  background-image: url("./images/nomades.jpg");
   object-fit: cover;
   background-size: cover;
 }
 .ville-2 {
-  background-image: url("./images/académie.jpg");
+  background-image: url("./images/dormir.jpg");
   object-fit: cover;
   background-size: cover;
 }
 .ville-3 {
-  background-image: url("./images/valdrakken.jpg");
+  background-image: url("./images/Amirdrassil_concept_10.2.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 }
 
 #section1 {
-  background-image: url(./images/travee.jpg);
+  background-image: url(./images/reve.jpg);
   height: calc(100vh);
   background-repeat: no-repeat;
   background-position: center;
