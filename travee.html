@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css travee.css" />
+    <link rel="stylesheet" href="./Polices d'écriture.css" />
+    <title>Voyage en Azeroth</title>
+  </head>
+  <body>
+    <header>
+      <h3>
+        <img src="./images/pngwing.com.svg" height="50px" align="left" /> Voyage
+        en Azeroth &nbsp; &nbsp; &nbsp;
+        <button>Demandez un devis</button>
+      </h3>
+
+      <div id="menu-button" class="close"></div>
+
+      <nav id="menu" class="">
+        <ul>
+          <li>Lien 1</li>
+          <li>Lien 2</li>
+          <li>Lien 3</li>
+          <li>Lien 4</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="section1">
+      <div class="wrap">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            placeholder="Que recherchez-vous?"
+          />
+          <button type="submit" class="searchButton">Go!</button>
+        </div>
+      </div>
+      <div class="promotion">
+        <h1>La travée d'Azur</h1>
+        <br />
+        <h2>Les neiges éternelles
+        </h2>
+      </div>
+    </div>
+    <div id="section2">
+      <article>
+        <h2>Explorez les îles aux dragons</h2>
+        text
+        
+          
+        </div>
+      </article>
+    </div>
+    <div id="section3">
+      <!--Ajouter les images, Osias-->
+      <h2>Voyages par thématique</h2>
+      <div class="theme">
+        <button class="Illustration1"></button>
+        <button class="Illustration2"></button>
+        <button class="Illustration3"></button>
+      </div>
+      <article>text</article>
+    </div>
+    <div id="section4">
+        <div class="flexbox">
+            <div class="up_circuit_ville">
+              <a class="ville-1 ville-allonge v-texte-allonge" href=""
+                ><h3>Trek dans les sables du temps</h3>
+                <p>prix</p>
+                <img src="" alt=""
+              /></a>
+              <a class="ville-2 ville-allonge v-texte-allonge" href=""
+                ><h3>Découvrez la magie des arcanes à  l’Académie d’Algeth’ar </h3>
+                <p>prix</p>
+                <img src="" alt=""
+              /></a>
+              <a class="ville-3 ville-debout v-texte-debout" href=""
+                ><h3>Visite de la capitale draconique Valdrakken</h3>
+                <p>prix</p>
+                <img src="" alt=""
+              /></a>
+            </div>
+      </div>
+
+    </div>
+
+
+    <!--bas de page-->
+    <footer>
+      <div class="flexf">
+        <section id="flogo">
+          <div class="fbutton">
+            <img src="./images/ally.png" />
+            <img src="./images/battlenet.png" />
+            <img src="./images/horde.png" />
+          </div>
+        </section>
+        <section id="ftxt">
+          <div class="flinks">
+            <h3>
+              <a href="#">Prendre rendez-vous en agence</a><br />
+              <a href="#">Demander un devis</a><br />
+              <a href="#">S'abonner à notre news letter</a>
+            </h3>
+          </div>
+        </section>
+        <section id="flogo">
+          <div class="fbutton">
+            <img src="./images/pngwing.com.svg" alt="oeuf de dragon" style:
+            width="20%" />&nbsp;&nbsp;
+          </div>
+          <h2>Voyage en Azeroth</h2>
+        </section>
+      </div>
+    </footer>
+  </body>
+  <script>
+    let menuButton = document.querySelector("#menu-button");
+    let menu = document.querySelector("#menu");
+
+    // show or hide
+    menuButton.addEventListener("click", function () {
+      menu.classList.toggle("show-menu");
+      menuButton.classList.toggle("close");
+    });
+
+  </script>
+</html>
