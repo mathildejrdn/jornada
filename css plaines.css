@@ -1,0 +1,205 @@
+/*section 2 responsive*/
+
+#section2 article {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  max-height: min-content;
+}
+.flex {
+  display: flex;
+  box-sizing: content-box;
+  flex-direction: column;
+  box-sizing: content-box;
+  max-height: min-content;
+}
+/*@media(min-width:$breack-s;)flex:1*/
+
+.ville-2 {
+  grid-area: ville-2;
+}
+
+.ville-1 {
+  grid-area: ville-1;
+}
+
+.ville-3 {
+  grid-area: ville-3;
+}
+
+/*margin image section2*/
+.margin-village-gauche {
+  margin: 50px 20px 20px 20px;
+}
+.margin-village-droite {
+  margin: 100px 0px 20px 20px;
+}
+/*taille des images de la ville*/
+.ville-2 {
+  grid-area: ville-2;
+}
+
+.ville-debout {
+  width: 361px;
+  height: 361px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ville-allonge {
+  width: 361px;
+  height: 361px;
+}
+.ville-1 {
+  background-image: url("./images/nomades.jpg");
+  object-fit: cover;
+  background-size: cover;
+}
+.ville-2 {
+  background-image: url("./images/dormir.jpg");
+  object-fit: cover;
+  background-size: cover;
+}
+.ville-3 {
+  background-image: url("./images/Amirdrassil_concept_10.2.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.up_circuit_ville,
+.bottom_circuit_ville {
+  display: flex;
+  gap: 50px 35px;
+  flex-direction: column;
+  grid-template-areas:
+    ". ville-1 ville-1 ville-1 . ville-3 . ."
+    ". ville-2 ville-2 ville-2 . ville-3 . .";
+  /* justify-content: center; */
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#section1 {
+  background-image: url(./images/plaines\ ohnahra.jpg);
+  height: calc(100vh);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+#section2 {
+  background-color: white;
+}
+
+#section3 {
+  background-color: pink;
+}
+
+#section4 {
+  background-color: black;
+}
+
+@media all and (min-width: 1024px) {
+  /*flexbox section2*/
+  #section2 article {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    max-height: min-content;
+  }
+  /*grid up*/
+  .up_circuit_ville {
+    display: grid;
+    gap: 50px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ville-1 ville-1 ville-1 . ville-3 . ."
+      ". ville-2 ville-2 ville-2 . ville-3 . .";
+    justify-content: center;
+  }
+
+  .ville-2 {
+    grid-area: ville-2;
+  }
+
+  .ville-1 {
+    grid-area: ville-1;
+  }
+
+  .ville-3 {
+    grid-area: ville-3;
+  }
+
+  /*margin image section2*/
+  .bottom_circuit_ville {
+    margin: 15px;
+  }
+  .up_circuit_ville {
+    margin: 15px;
+    margin-right: 102px;
+  }
+  /*taille des images de la ville*/
+  .ville-2 {
+    grid-area: ville-2;
+  }
+
+  .ville-debout {
+    width: 361px;
+    height: 749px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .ville-allonge {
+    width: 749px;
+    height: 361px;
+  }
+}
+/*text align*/
+.v-texte-debout {
+  text-align: center;
+  align-content: center;
+}
+.v-texte-allonge {
+  align-content: end;
+}
+#section2 .v-texte-allonge h3 {
+  margin-left: 15px;
+}
+#section2 .v-texte-allonge p {
+  margin-left: 15px;
+}
+/*section3*/
+/*flex*/
+.theme {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.theme button {
+  width: 231px;
+  height: 367.67px;
+  margin: 0px 12px;
+  margin-bottom: 15px;
+  justify-items: center;
+}
+/*text*/
+.theme button {
+  text-shadow: 3px 3px 9px #000000;
+}
+/*btn background*/
+.Illustration1 {
+  background-image: url(/images/illustration1\ a.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Illustration2 {
+  background-image: url(/images/illustration2\ a.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Illustration3 {
+  background-image: url(/images/illustration3\ a.jpg);
+  background-position-x: 56%;
+  background-size: cover;
+}
