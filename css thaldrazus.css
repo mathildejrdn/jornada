@@ -189,17 +189,17 @@
 }
 /*btn background*/
 .Illustration1 {
-  background-image: url(/images/illustration1\ a.jpg);
+  background-image: url(/images/thal1.jpg);
   background-position: center;
   background-size: cover;
 }
 .Illustration2 {
-  background-image: url(/images/illustration2\ a.jpg);
+  background-image: url(/images/thal2.jpg);
   background-position: center;
   background-size: cover;
 }
 .Illustration3 {
-  background-image: url(/images/illustration3\ a.jpg);
+  background-image: url(/images/thal3.jpg);
   background-position-x: 56%;
   background-size: cover;
 }
