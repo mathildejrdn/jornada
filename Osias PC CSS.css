@@ -15,13 +15,9 @@
 }
 
 #section4 {
-  background-color: aliceblue;
+  background-color: black;
 }
 
-#section5 {
-  background-color: yellow;
-  height: calc(50vh);
-}
 @media all and (min-width: 1024px) {
   /*flexbox section2*/
   #section2 article {

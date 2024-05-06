@@ -102,10 +102,11 @@ li {
 }
 
 .wrap {
-  width: 30%;
+  width: 50%;
   position: absolute;
-  top: 20%;
-  left: 80%;
+  top: 80%;
+  left: 50%;
+  /* margin: auto; */
   transform: translate(-50%, -50%);
 }
 
@@ -234,7 +235,7 @@ footer {
   background-position: bottom;
 }
 
-#fuber img {
+#flogo img {
   width: 10%;
   height: 10%;
 }
@@ -264,7 +265,7 @@ footer {
   text-decoration: underline;
 }
 
-.restaurant {
+.flinks {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -272,7 +273,7 @@ footer {
   line-height: 30px;
 }
 
-#fuber {
+#flogo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,4 +288,26 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+/*section 5*/
+.avis {
+  text-align: justify;
+  display: block;
+  left: 0;
+  padding: 1em;
+}
+
+.avisimg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+#section5 article {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
