@@ -92,25 +92,24 @@ video {
 }
 /*CSS reset ne pas toucher au-dessus*/
 :root {
-  --background: #ededed;
-  --background2: #00000099;
-  --accentColor: red;
-  --accentColor2: green;
-  --txtColor: #383838;
+  --background: #ededed; /*couleur de fond*/
+  --accentColor: red; /*couleur d'accent numéro 1*/
+  --accentColor2: green; /*couleur d'accent numéro 2*/
+  --txtColor: #383838; /*variable pour la couleur du texte sur les pages*/
+  --txtColor2: white; /*variable couleur du texte sur les images*/
   --size1: 3.125em;
   --size2: 2.5em;
   --size3: 1.875em;
-  --size4: 1em;
+  --size4: 1em; /*correspond à 16px pour le font-size*/
 }
 
 /*Polices d'écritures
 
 à définir */
 
-/* couleurs des textes*/
+/* couleurs & style des textes*/
 
 h1 {
-  color: var(--accentColor2);
   font-size: var(--size1);
   color: white;
 }
@@ -127,7 +126,12 @@ h3 {
 
 p {
   font-size: var(--fsize4);
-  color: white;
+  color: var(--txtColor2);
+}
+
+txt {
+  color: var(--txtColor);
+  font-size: var(--fsize4);
 }
 
 /*haut de page commun à toutes les pages*/
@@ -142,10 +146,6 @@ header {
   box-sizing: border-box;
 }
 
-main {
-  max-width: 100%;
-  border: 5px solid hotpink;
-}
 .header-title {
   line-height: 50px;
   font-size: 22px;
@@ -239,15 +239,16 @@ li {
   position: absolute;
   top: 80%;
   left: 50%;
-  /* margin: auto; */
   transform: translate(-50%, -50%);
 }
 
 .promotion {
   display: inline-block;
   padding: 15px;
-  width: 60%;
+  width: 90%;
   margin-top: 20%;
+  text-align: left;
+  align-content: center;
 }
 
 /*bas de page commun à toutes les pages*/
@@ -315,6 +316,7 @@ footer {
   justify-content: center;
 }
 
+/*sections communes*/
 #section2 {
   background-color: var(--background);
 }
