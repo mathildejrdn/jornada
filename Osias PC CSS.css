@@ -6,18 +6,6 @@
   object-fit: cover;
 }
 
-#section2 {
-  background-color: white;
-}
-
-#section3 {
-  background-color: pink;
-}
-
-#section4 {
-  background-color: black;
-}
-
 @media all and (min-width: 1024px) {
   /*flexbox section2*/
   #section2 article {
