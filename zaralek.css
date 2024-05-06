@@ -189,17 +189,18 @@
 }
 /*btn background*/
 .Illustration1 {
-  background-image: url(/images/illustration1\ a.jpg);
+  background-image: url(/images/zaralek1.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 25px;
 }
 .Illustration2 {
-  background-image: url(/images/illustration2\ b.jpg);
+  background-image: url(/images/zarakel2.jpg);
   background-position: center;
   background-size: cover;
 }
 .Illustration3 {
-  background-image: url(/images/illustration3\ a.jpg);
+  background-image: url(/images/zaralek3.jpg);
   background-position-x: 56%;
   background-size: cover;
 }
