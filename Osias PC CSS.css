@@ -82,10 +82,10 @@
   /*margin image section2*/
   .bottom_circuit_ville {
     margin: 15px;
-}
+  }
   .up_circuit_ville {
     margin: 15px;
-}
+  }
   /*taille des images de la ville*/
   .ville-2 {
     grid-area: ville-2;
@@ -119,20 +119,18 @@
   .ville-6 {
     background-color: rgba(0, 0, 0, 0.582);
   }
- 
 }
 /*text align*/
-
-.v-texte-debout{
+.v-texte-debout {
   text-align: center;
-  align-content:center;
+  align-content: center;
 }
-.v-texte-allonge{
-  align-content:end;
+.v-texte-allonge {
+  align-content: end;
 }
-#section2 .v-texte-allonge h3{
+#section2 .v-texte-allonge h3 {
   margin-left: 15px;
 }
-#section2 .v-texte-allonge p{
+#section2 .v-texte-allonge p {
   margin-left: 15px;
-} 
+}
