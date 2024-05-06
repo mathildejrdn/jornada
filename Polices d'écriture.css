@@ -129,3 +129,188 @@ p {
   font-size: var(--fsize4);
   color: white;
 }
+
+/*haut de page commun à toutes les pages*/
+/* haut de page*/
+
+header {
+  padding: 0 12px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: var(--background2);
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 100%;
+  border: 5px solid hotpink;
+}
+.header-title {
+  line-height: 50px;
+  font-size: 22px;
+}
+ul,
+li {
+  display: block;
+}
+li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #777;
+  color: white;
+  background: var(--background2);
+}
+
+#menu-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  background: var(--background2);
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#menu-button::after {
+  content: "×";
+}
+#menu-button.close {
+  color: #fff;
+  background: var(--background2);
+}
+#menu-button.close::after {
+  content: "≡";
+}
+
+#menu {
+  transition: transform 0.5s;
+  position: absolute;
+  width: 100%;
+  transform: translateY(-300px);
+}
+#menu.show-menu {
+  transform: translateY(0px);
+  position: sticky;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  /* padding: 5px; */
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: red;
+  font-size: 16px;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 45px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.wrap {
+  width: 50%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  /* margin: auto; */
+  transform: translate(-50%, -50%);
+}
+
+.promotion {
+  display: inline-block;
+  padding: 15px;
+  width: 60%;
+  margin-top: 20%;
+}
+
+/*bas de page commun à toutes les pages*/
+
+footer {
+  background-image: url(./images/footer.png);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-position: bottom;
+}
+
+#flogo img {
+  width: 10%;
+  height: 10%;
+}
+
+.flexf {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+}
+
+#ftxt {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+  padding: 5px;
+}
+
+#ftxt a {
+  text-decoration: none;
+  color: var(--quote);
+}
+
+#ftxt a:hover {
+  text-decoration: underline;
+}
+
+.flinks {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 30px;
+}
+
+#flogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+.fbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
