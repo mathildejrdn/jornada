@@ -1,9 +1,31 @@
 body{
-    color: black;
+    color:;
 }
-label{
-    color: red;
+/*position*/
+.form{
+    width: 60%;
+    height: 50%;
+    margin-top: 40px;
+
 }
-button{
-    color: green;
+/*flex*/
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+/*backgroud*/
+body{
+    background-color: rgb(235, 252, 246);
+}
+.form{
+    background-color: rgb(156, 208, 253);
 }
