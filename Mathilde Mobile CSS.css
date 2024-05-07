@@ -65,33 +65,39 @@
   background-image: url("./images/wp11717197-world-of-warcraft-dragonflight-wallpapers.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-2 {
   background-image: url("./images/rivages.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-3 {
   background-image: url("./images/travee.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 .ville-4 {
   background-image: url(./images/zaralek.jpg);
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 .ville-5 {
   background-image: url("./images/reve.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-6 {
   background-image: url("./images/plaines\ ohnahra.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .up_circuit_ville,
 .bottom_circuit_ville {

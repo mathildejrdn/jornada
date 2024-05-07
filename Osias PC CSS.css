@@ -141,31 +141,37 @@
   background-image: url(/images/cuisine.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 15px;
 }
 .Nature {
   background-image: url(/images/nature-bg-Season-1.5-Dragons-of-Light-Key-Art-1024x647.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 15px;
 }
 .Sportif {
   background-image: url(/images/sportif.jpg);
   background-position-x: 56%;
   background-size: cover;
+  border-radius: 15px;
 }
 .Famillial {
   background-image: url(/images/familial.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 15px;
 }
 .Artisanat {
   background-image: url(/images/artisanat.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 15px;
 }
 .Culture {
   background-image: url(/images/ritual.jpg);
   background-position: center;
   background-size: auto;
+  border-radius: 15px;
 }
 /*section4*/
 /*align mini img*/
