@@ -95,13 +95,15 @@ video {
   --background: #ededed; /*couleur de fond*/
   --background2: #00000059;
   --accentColor: red; /*couleur d'accent numéro 1*/
-  --accentColor2: green; /*couleur d'accent numéro 2*/
+  --accentColor2: #56be6d; /*couleur d'accent numéro 2*/
   --txtColor: #383838; /*variable pour la couleur du texte sur les pages*/
   --txtColor2: white; /*variable couleur du texte sur les images*/
   --size1: 3.125em;
   --size2: 2.5em;
   --size3: 1.25em;
   --size4: 1em; /*correspond à 16px pour le font-size*/
+  --font1: "Grenze", serif;
+  --font2: "Noto Sans", sans-serif;
 }
 
 /*Polices d'écritures
@@ -114,29 +116,33 @@ h1 {
   font-size: var(--size1);
   color: white;
   text-shadow: #fc0 1px 0 10px;
+  font-family: "Grenze", serif;
 }
 
 h2 {
-  font-size: var(--size2);
-  color: white;
-  text-shadow: #000 1px 0 20px;
+  font-size: var(--size1);
+  color: var(--accentColor2);
   text-align: center;
+  font-family: var(--font1);
 }
 
 h3 {
   color: white;
   font-size: var(--size3);
   text-shadow: #000 1px 0 20px;
+  font-family: var(--font1);
 }
 
 p {
   font-size: var(--size4);
   color: var(--txtColor2);
+  font-family: var(--font2);
 }
 
 txt {
   color: var(--txtColor);
   font-size: var(--size4);
+  font-family: var(--font2);
 }
 a {
   text-decoration: none;
@@ -144,13 +150,12 @@ a {
 /*haut de page commun à toutes les pages*/
 /* haut de page*/
 btn {
-  color: #000;
+  color: var(--txtColor);
   background-color: white;
   text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
   font-size: var(--size4);
-  text-transform: uppercase;
-  font-family: calibri;
-  border-radius: 3px;
+  border-radius: 10px;
   border: 2px solid #56be6d;
   padding: 5px;
   box-shadow: 0.9px 1px 0 0 #56be6d, 1.5px 2px 0 0 #56be6d,
@@ -169,11 +174,11 @@ btn {
 
 btn:hover {
   inset: 6px 0 5.5px 0;
-  transform: rotateX(5deg) rotateY(3deg) rotateZ(0.25deg);
+  transform: rotateX(10deg) rotateY(3deg) rotateZ(0.25deg);
   box-shadow: none;
 }
 button {
-  color: #fff;
+  color: var(--background);
   transition: all 0.5s;
   position: relative;
   border: none;
@@ -389,6 +394,7 @@ footer {
   flex-direction: column;
   padding: 5px;
   background-position: bottom;
+  margin-top: 20px;
 }
 
 #flogo img {
@@ -457,6 +463,12 @@ footer {
 
 #section4 {
   background-color: var(--background);
+}
+
+#section5 btn {
+  display: flex;
+  margin: auto;
+  width: 200px;
 }
 
 article {
