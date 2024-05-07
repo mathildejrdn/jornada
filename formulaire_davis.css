@@ -28,4 +28,11 @@ body{
 }
 .form{
     background-color: rgb(156, 208, 253);
+    border-radius: 15px;
 }
+/*btn*/
+#idest,#ivl {
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+/*btn soumetre et reinitiliser*/
