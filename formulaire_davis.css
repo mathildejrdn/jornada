@@ -5,8 +5,10 @@ body{
 .form{
     width: 60%;
     height: 50%;
-    margin-top: 40px;
-
+    margin-top: 40px
+}
+.form>fieldset{
+    margin-bottom: 50px;
 }
 /*flex*/
 .flex{
