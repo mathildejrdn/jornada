@@ -21,3 +21,10 @@ body{
     align-content: center;
     align-items: center;
 }
+/*backgroud*/
+body{
+    background-color: rgb(235, 252, 246);
+}
+.form{
+    background-color: rgb(156, 208, 253);
+}
