@@ -53,17 +53,20 @@
   background-image: url("./images/marché\ zaralek.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-2 {
   background-image: url("./images/escargot.png");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-3 {
   background-image: url("./images/aberrus.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
 .up_circuit_ville,
@@ -183,24 +186,24 @@
   margin-bottom: 15px;
   justify-items: center;
 }
-/*text*/
-.theme button {
-  text-shadow: 3px 3px 9px #000000;
-}
+
 /*btn background*/
 .Illustration1 {
   background-image: url(/images/zaralek1.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 25px;
+  border-radius: 15px;
 }
 .Illustration2 {
   background-image: url(/images/zarakel2.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 15px;
 }
 .Illustration3 {
   background-image: url(/images/zaralek3.jpg);
   background-position-x: 56%;
   background-size: cover;
+  border-radius: 15px;
 }
