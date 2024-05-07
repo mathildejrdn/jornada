@@ -47,5 +47,23 @@
             </fieldset>
         </div>
     </div>
+    <script>
+        // Função para verificar se o input está preenchido e ajustar a label correspondente
+        function ajustarLabel(input) {
+          var label = document.querySelector('label[for="' + input.id + '"].animation_label');
+          if (input.value.trim() !== '') {
+            label.classList.add('label-ativa');
+          } else {
+            label.classList.remove('label-ativa');
+          }
+        }
+        
+        // Adiciona um ouvinte de evento 'input' a todos os inputs para verificar a alteração
+        document.querySelectorAll('.input_donnees').forEach(function(input) {
+          input.addEventListener('input', function() {
+            ajustarLabel(input);
+          });
+        });
+        </script>
 </body>
 </html>

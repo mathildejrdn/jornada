@@ -57,10 +57,14 @@ input[type="date"] {
 }
 /*animation label*/
 .animation_label{
-    /*position: absolute;*/
+    position: absolute;
     transition: .5s;
-
+   
 }
-.input_donnees:focus-within{
+.input_donnees{
     margin-top: -20px;
 }
+.label-ativa {
+    margin-top: -20px;
+    font-size: 0.4em; /* Ajuste o tamanho da fonte conforme necessário */
+  }
