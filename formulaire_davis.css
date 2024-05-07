@@ -28,4 +28,5 @@ body{
 }
 .form{
     background-color: rgb(156, 208, 253);
+    border-radius: 15px;
 }
