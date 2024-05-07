@@ -46,3 +46,9 @@ input[type="date"] {
     border-bottom: 1px solid white;
     outline: none;
 }
+.input_donnees{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
