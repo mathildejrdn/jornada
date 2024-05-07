@@ -134,9 +134,87 @@ txt {
   color: var(--txtColor);
   font-size: var(--fsize4);
 }
-
+a {
+  text-decoration: none;
+}
 /*haut de page commun à toutes les pages*/
 /* haut de page*/
+btn {
+  color: #0ebac5;
+  background-color: white;
+  text-decoration: none;
+  font-size: var(--fsize4);
+  text-transform: uppercase;
+  font-family: calibri;
+  border-radius: 3px;
+  border: 2px solid #0ebac5;
+  padding: 5px;
+  box-shadow: 0.9px 1px 0 0 #0ebac5, 1.5px 2px 0 0 #0ebac5,
+    2.5px 3px 0 0 #0ebac5, 3.5px 4px 0 0 #0ebac5, 4.5px 5px 0 0 #0ebac5,
+    5.5px 6px 0 0 #0ebac5, 6.5px 7px 0 0 #0ebac5, 7.5px 8px 0 0 #0ebac5,
+    8.5px 9px 0 0 #0ebac5, 9.5px 10px 0 0 #0ebac5;
+  position: relative;
+  inset: 0;
+  cursor: pointer;
+  transform: rotateX(0), rotateY(0) rotateZ(0);
+  display: inline-block;
+  outline: 2px dashed transparent;
+  transition: all 600ms ease;
+}
+
+btn:hover {
+  inset: 6px 0 5.5px 0;
+  transform: rotateX(5deg) rotateY(3deg) rotateZ(0.25deg);
+  box-shadow: none;
+}
+button {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  border: none;
+}
+button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+button:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
+  border-radius: 15px;
+}
+button:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.ville-1:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid red;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 
 header {
   padding: 0 12px;
@@ -245,11 +323,11 @@ li {
 
 .promotion {
   display: inline-block;
-  padding: 15px;
-  width: 90%;
-  margin-top: 20%;
-  text-align: left;
+  padding: 50px;
+  width: 100%;
+  margin-top: 10%;
   align-content: center;
+  text-align: center;
 }
 
 /*bas de page commun à toutes les pages*/
