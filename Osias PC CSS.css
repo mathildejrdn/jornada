@@ -17,7 +17,7 @@
   /*grid up*/
   .up_circuit_ville {
     display: grid;
-    gap: 50px 35px;
+    gap: 30px 35px;
     grid-auto-flow: row;
     grid-template-areas:
       ". ville-1 ville-1 ville-1 . ville-3 . ."
@@ -40,7 +40,7 @@
   /*grid bottom*/
   .bottom_circuit_ville {
     display: grid;
-    gap: 0px 40px;
+    gap: 30px 35px;
     grid-auto-flow: row;
     grid-template-areas:
       ". ville-4 . ville-5 ville-5 . ."
@@ -63,11 +63,10 @@
 
   /*margin image section2*/
   .bottom_circuit_ville {
-    margin: 15px;
+    margin: 50px;
   }
   .up_circuit_ville {
-    margin: 15px;
-    margin-right: 102px;
+    margin: 50px;
   }
   /*taille des images de la ville*/
   .ville-2 {

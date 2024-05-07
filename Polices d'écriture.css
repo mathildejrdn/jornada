@@ -120,6 +120,7 @@ h2 {
   font-size: var(--size2);
   color: white;
   text-shadow: #000 1px 0 20px;
+  text-align: center;
 }
 
 h3 {
@@ -129,13 +130,13 @@ h3 {
 }
 
 p {
-  font-size: var(--fsize4);
+  font-size: var(--size4);
   color: var(--txtColor2);
 }
 
 txt {
   color: var(--txtColor);
-  font-size: var(--fsize4);
+  font-size: var(--size4);
 }
 a {
   text-decoration: none;
@@ -143,19 +144,19 @@ a {
 /*haut de page commun à toutes les pages*/
 /* haut de page*/
 btn {
-  color: #0ebac5;
+  color: #000;
   background-color: white;
   text-decoration: none;
-  font-size: var(--fsize4);
+  font-size: var(--size4);
   text-transform: uppercase;
   font-family: calibri;
   border-radius: 3px;
-  border: 2px solid #0ebac5;
+  border: 2px solid #56be6d;
   padding: 5px;
-  box-shadow: 0.9px 1px 0 0 #0ebac5, 1.5px 2px 0 0 #0ebac5,
-    2.5px 3px 0 0 #0ebac5, 3.5px 4px 0 0 #0ebac5, 4.5px 5px 0 0 #0ebac5,
-    5.5px 6px 0 0 #0ebac5, 6.5px 7px 0 0 #0ebac5, 7.5px 8px 0 0 #0ebac5,
-    8.5px 9px 0 0 #0ebac5, 9.5px 10px 0 0 #0ebac5;
+  box-shadow: 0.9px 1px 0 0 #56be6d, 1.5px 2px 0 0 #56be6d,
+    2.5px 3px 0 0 #56be6d, 3.5px 4px 0 0 #56be6d, 4.5px 5px 0 0 #56be6d,
+    5.5px 6px 0 0 #56be6d, 6.5px 7px 0 0 #56be6d, 7.5px 8px 0 0 #56be6d,
+    8.5px 9px 0 0 #56be6d, 9.5px 10px 0 0 #56be6d;
   position: relative;
   inset: 0;
   cursor: pointer;
@@ -270,7 +271,7 @@ button:hover::after {
 }
 
 header {
-  padding: 0 12px;
+  padding: 10px;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -278,10 +279,6 @@ header {
   box-sizing: border-box;
 }
 
-.header-title {
-  line-height: 50px;
-  font-size: 22px;
-}
 ul,
 li {
   display: block;
@@ -289,9 +286,9 @@ li {
 li {
   height: 50px;
   line-height: 50px;
-  border-bottom: 1px solid #777;
   color: white;
-  background: var(--background2);
+  text-align: center;
+  font-size: var(--size3);
 }
 
 #menu-button {
@@ -340,9 +337,8 @@ li {
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00b4cc;
+  border: 3px solid #56be6d;
   border-right: none;
-  /* padding: 5px; */
   height: 45px;
   border-radius: 5px 0 0 5px;
   outline: none;
@@ -351,19 +347,19 @@ li {
 }
 
 .searchTerm:focus {
-  color: #00b4cc;
+  color: #56be6d;
 }
 
 .searchButton {
   width: 40px;
   height: 45px;
-  border: 1px solid #00b4cc;
-  background: #00b4cc;
+  border: 1px solid #56be6d;
+  background: #56be6d;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
-  font-size: 12px;
+  font-size: var(--size3);
 }
 
 .wrap {
@@ -461,4 +457,12 @@ footer {
 
 #section4 {
   background-color: var(--background);
+}
+
+article {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 30px;
 }

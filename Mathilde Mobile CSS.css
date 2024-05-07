@@ -102,7 +102,7 @@
 .up_circuit_ville,
 .bottom_circuit_ville {
   display: flex;
-  gap: 50px 35px;
+  gap: 35px;
   flex-direction: column;
   grid-template-areas:
     ". ville-1 ville-1 ville-1 . ville-3 . ."
@@ -132,4 +132,5 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  padding: 30px;
 }
