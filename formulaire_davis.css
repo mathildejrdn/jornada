@@ -29,7 +29,7 @@ body{
     background-color: rgb(235, 252, 246);
 }
 .form{
-    background-color: rgb(156, 208, 253);
+    background-color: rgba(156, 208, 253, 0.342);
     border-radius: 15px;
 }
 /*btn*/
@@ -57,7 +57,7 @@ input[type="date"] {
 }
 /*animation label*/
 .animation_label{
-    position: absolute;
+    /*position: absolute;*/
     transition: .5s;
 
 }
