@@ -53,17 +53,20 @@
   background-image: url("./images/sables.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-2 {
   background-image: url("./images/académie.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-3 {
   background-image: url("./images/valdrakken.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
 .up_circuit_ville,

@@ -53,17 +53,20 @@
   background-image: url("./images/kayak.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-2 {
   background-image: url("./images/bateleurs.jpg");
   object-fit: cover;
   background-size: cover;
+  border-radius: 15px;
 }
 .ville-3 {
   background-image: url("./images/bassins.jpg");
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
 .up_circuit_ville,
