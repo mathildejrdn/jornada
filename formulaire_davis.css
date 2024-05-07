@@ -1,12 +1,14 @@
 body{
-    color:;
+
 }
 /*position*/
 .form{
     width: 60%;
     height: 50%;
-    margin-top: 40px;
-
+    margin-top: 40px
+}
+.form>fieldset{
+    margin-bottom: 50px;
 }
 /*flex*/
 .flex{
@@ -39,4 +41,23 @@ body{
 /*date*/
 input[type="date"] {
     padding: 4px 10px;
-    border-radius: 10px}
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.input_donnees{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+/*animation label*/
+.animation_label{
+position: absolute;
+transition: .5s;
+
+}

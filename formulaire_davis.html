@@ -11,38 +11,40 @@
     <div class="flex">
         <div class="form">
             <h1>Formulaire pour un devis</h1>
-            <form action="cadastro.php" method="post" autocomplete="off">
-                <p><label for="idest">Destination</label>
-                    <input type="button" id="idest" value="Rêve d’Emeraude">
-                    <input type="button" id="idest"value="Thaldrazus">
-                    <input type="button" id="idest"value="Travée d’Azur">
-                    <input type="button" id="idest"value="Grottes de zaralek">
-                    <input type="button" id="idest"value="Plaines d’Ohn’ahra">
-                    <input type="button" id="idest"value="Rivages de l’Eveil">
-                </p>
-                <fieldset>
-                    <p><label for="ivl">Ville de départ</label>
-                        <input type="button" id="ivl" value="Orgrimar">
-                        <input type="button" id="ivl" value="Hurlevent">
+            <fieldset>
+                <form action="cadastro.php" method="post" autocomplete="off">
+                    <p><label for="idest">Destination</label>
+                        <input type="button" id="idest" value="Rêve d’Emeraude">
+                        <input type="button" id="idest"value="Thaldrazus">
+                        <input type="button" id="idest"value="Travée d’Azur">
+                        <input type="button" id="idest"value="Grottes de zaralek">
+                        <input type="button" id="idest"value="Plaines d’Ohn’ahra">
+                        <input type="button" id="idest"value="Rivages de l’Eveil">
+                    </p>
+                    <fieldset>
+                        <p><label for="ivl">Ville de départ</label>
+                            <input type="button" id="ivl" value="Orgrimar">
+                            <input type="button" id="ivl" value="Hurlevent">
                 
+                        </p>
+                    </fieldset><br>
+                    <fieldset>
+                        <p><label for="idate"></label>Date de départ <input type="date" name="idate" required >
+                        <label for="idate"></label>Date de retour <input type="date" name="idate" required >
+                        </p>
+                    </fieldset><br>
+                    <fieldset >
+                        <p><label for="ivoyageurs" class="animation_label" >Voyageurs</label> <input class="input_donnees" type= "number" name="ienvies" id="ivoyageurs" min="1"></p>
+                        <p><label for="inom"class="animation_label">Nom</label><input class="input_donnees" type="text" name="" id="inom" required></p>
+                        <p><label for="iprenom" class="animation_label">Prénom</label><input class="input_donnees" type="text" name="" id="iprenom" required></p>
+                        <p><label for="iemail" class="animation_label">Adresse e-mail</label><input  class="input_donnees"type="email" name="" id="iemail" required></p>
+                    </fieldset>
+                    <p><label for="imsg">Vos envies</label>
+                    <textarea name="msg" id="imsg" cols="48" rows="10"></textarea>
                     </p>
-                </fieldset><br>
-                <fieldset>
-                    <p><label for="idate"></label>Date de départ <input type="date" name="idate" required >
-                    <label for="idate"></label>Date de retour <input type="date" name="idate" required >
-                    </p>
-                </fieldset><br>
-                <fieldset>
-                    <p><label for="ivoyageurs">Voyageurs</label> <input type= "number" name="ienvies" id="ivoyageurs" min="1"></p>
-                    <p><label for="inom">Nom</label><input type="text" name="" id="inom" required></p>
-                    <p><label for="iprenom">Prénom</label><input type="text" name="" id="iprenom" required></p>
-                    <p><label for="iemail">Adresse e-mail</label><input type="email" name="" id="iemail" required></p>
-                </fieldset>
-                <p><label for="imsg">Vos envies</label>
-                <textarea name="msg" id="imsg" cols="48" rows="10"></textarea>
-                </p>
-                <p><input type="submit"> <input type="reset"></p>
-            </form>
+                    <p><input type="submit"> <input type="reset"></p>
+                </form>
+            </fieldset>
         </div>
     </div>
 </body>
