@@ -93,13 +93,14 @@ video {
 /*CSS reset ne pas toucher au-dessus*/
 :root {
   --background: #ededed; /*couleur de fond*/
+  --background2: #00000059;
   --accentColor: red; /*couleur d'accent numéro 1*/
   --accentColor2: green; /*couleur d'accent numéro 2*/
   --txtColor: #383838; /*variable pour la couleur du texte sur les pages*/
   --txtColor2: white; /*variable couleur du texte sur les images*/
   --size1: 3.125em;
   --size2: 2.5em;
-  --size3: 1.875em;
+  --size3: 1.25em;
   --size4: 1em; /*correspond à 16px pour le font-size*/
 }
 
@@ -118,11 +119,13 @@ h1 {
 h2 {
   font-size: var(--size2);
   color: white;
+  text-shadow: #000 1px 0 20px;
 }
 
 h3 {
   color: white;
   font-size: var(--size3);
+  text-shadow: #000 1px 0 20px;
 }
 
 p {
@@ -264,7 +267,7 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
-  background-color: black;
+  background-color: var(--background2);
   box-sizing: border-box;
 }
 
@@ -369,8 +372,10 @@ li {
   padding: 50px;
   width: 100%;
   margin-top: 10%;
-  align-content: center;
   text-align: center;
+  background: var(--background2);
+  border-radius: 15px;
+  width: 100%;
 }
 
 /*bas de page commun à toutes les pages*/

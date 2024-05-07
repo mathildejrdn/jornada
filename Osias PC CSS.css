@@ -107,9 +107,11 @@
 .v-texte-debout {
   text-align: center;
   align-content: center;
+  text-transform: capitalize;
 }
 .v-texte-allonge {
   align-content: end;
+  text-transform: capitalize;
 }
 #section2 .v-texte-allonge h3 {
   margin-left: 15px;
