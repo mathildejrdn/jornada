@@ -162,7 +162,8 @@ btn {
   transform: rotateX(0), rotateY(0) rotateZ(0);
   display: inline-block;
   outline: 2px dashed transparent;
-  transition: all 600ms ease;
+  transition: all 300ms ease;
+  margin: 5px;
 }
 
 btn:hover {
@@ -218,6 +219,7 @@ button:hover::after {
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .ville-2:hover {
@@ -227,6 +229,7 @@ button:hover::after {
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .ville-3:hover {
@@ -236,6 +239,7 @@ button:hover::after {
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 .ville-4:hover {
   border-top-left-radius: 10px;
@@ -244,6 +248,7 @@ button:hover::after {
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 .ville-5:hover {
   border-top-left-radius: 10px;
@@ -252,6 +257,7 @@ button:hover::after {
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 .ville-6:hover {
   border-top-left-radius: 10px;
@@ -260,6 +266,7 @@ button:hover::after {
   animation-duration: 0.25s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 header {
