@@ -13,3 +13,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
