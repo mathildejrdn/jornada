@@ -57,7 +57,10 @@ input[type="date"] {
 }
 /*animation label*/
 .animation_label{
-position: absolute;
-transition: .5s;
+    position: absolute;
+    transition: .5s;
 
+}
+.input_donnees:focus-within{
+    margin-top: -20px;
 }
