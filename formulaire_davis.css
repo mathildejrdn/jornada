@@ -1,6 +1,9 @@
 body{
 
 }
+h1 {
+    text-align: center;
+}
 /*position*/
 .form{
     width: 60%;
