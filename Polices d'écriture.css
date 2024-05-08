@@ -395,6 +395,7 @@ footer {
   padding: 5px;
   background-position: bottom;
   margin-top: 20px;
+  background-attachment: fixed;
 }
 
 #flogo img {
