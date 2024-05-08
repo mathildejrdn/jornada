@@ -31,10 +31,14 @@ h1 {
 }
 /*backgroud*/
 body{
-    background-color: rgb(235, 252, 246);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.329), rgba(255, 255, 0, 0.26)), url(/images/map\ wow\ 2.jpg);
+    background-color: rgba(0, 0, 0, 0.39);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center;
 }
 .form{
-    background-color: rgba(156, 208, 253, 0.342);
+    background-color: rgba(231, 240, 248, 0.726);
     border-radius: 15px;
 }
 /*btn*/
