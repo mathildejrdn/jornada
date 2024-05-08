@@ -38,9 +38,10 @@ h1 {
 body{
     background-image: linear-gradient(rgba(0, 0, 255, 0.329), rgba(255, 255, 0, 0.26)), url(/images/map\ wow\ 2.jpg);
     background-color: rgba(0, 0, 0, 0.39);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    background-size: cover;
 }
 .form{
     background-color: rgba(231, 240, 248, 0.726);
