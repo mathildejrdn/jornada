@@ -29,6 +29,11 @@ h1 {
     align-items: center;
     min-width: 434px;
 }
+.date_flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 /*backgroud*/
 body{
     background-image: linear-gradient(rgba(0, 0, 255, 0.329), rgba(255, 255, 0, 0.26)), url(/images/map\ wow\ 2.jpg);
