@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
+  background-attachment: fixed;
 }
 
 @media all and (min-width: 1024px) {
