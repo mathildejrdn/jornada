@@ -1,14 +1,18 @@
 body{
 
 }
+h1 {
+    text-align: center;
+    padding: 0px 0px;
+}
 /*position*/
 .form{
     width: 60%;
     height: 50%;
-    margin-top: 40px
+    margin-top: 0px
 }
 .form>fieldset{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 /*flex*/
 .flex{
@@ -23,19 +27,31 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
+    min-width: 434px;
+}
+.date_flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 /*backgroud*/
 body{
-    background-color: rgb(235, 252, 246);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.329), rgba(255, 255, 0, 0.26)), url(/images/map\ wow\ 2.jpg);
+    background-color: rgba(0, 0, 0, 0.39);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
 }
 .form{
-    background-color: rgb(156, 208, 253);
+    background-color: rgba(231, 240, 248, 0.726);
     border-radius: 15px;
 }
 /*btn*/
 #idest,#ivl {
     padding: 4px 10px;
     border-radius: 10px;
+    margin: 2px;
 }
 /*btn soumetre et reinitiliser*/
 /*date*/
@@ -59,8 +75,12 @@ input[type="date"] {
 .animation_label{
     position: absolute;
     transition: .5s;
-
+   
 }
-.input_donnees:focus-within{
+.input_donnees{
     margin-top: -20px;
 }
+.label-ativa {
+    margin-top: -20px;
+    font-size: 0.5em; /* Ajuste o tamanho da fonte conforme necessário */
+  }
