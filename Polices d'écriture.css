@@ -119,11 +119,20 @@ h1 {
   font-family: "Grenze", serif;
 }
 
+h2bis {
+  font-size: var(--size1);
+  color: white;
+  text-align: center;
+  font-family: var(--font1);
+  text-shadow: var(--accentColor2) 1px 0 10px;
+}
+
 h2 {
   font-size: var(--size1);
   color: var(--accentColor2);
   text-align: center;
   font-family: var(--font1);
+  text-shadow: var(--accentColor2) 1px 0 10px;
 }
 
 h3 {
