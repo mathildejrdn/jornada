@@ -68,33 +68,35 @@
   border-radius: 15px;
 }
 .ville-2 {
-  background-image: url("./images/rivages.jpg");
+  background-image: url("./images/reivagesa.jpeg");
   object-fit: cover;
   background-size: cover;
   border-radius: 15px;
+  background-position: right;
 }
 .ville-3 {
-  background-image: url("./images/travee.jpg");
+  background-image: url(./images/traveea.png);
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
+  background-position: center;
 }
 .ville-4 {
-  background-image: url(./images/zaralek.jpg);
+  background-image: url(./images/zaraleka.png);
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
 }
 .ville-5 {
-  background-image: url("./images/reve.jpg");
+  background-image: url("./images/emeraudea.png");
   object-fit: cover;
   background-size: cover;
   border-radius: 15px;
 }
 .ville-6 {
-  background-image: url("./images/plaines\ ohnahra.jpg");
+  background-image: url("./images/plainesa.png");
   object-fit: cover;
   background-size: cover;
   border-radius: 15px;

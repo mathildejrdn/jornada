@@ -83,8 +83,9 @@
 }
 
 #section1 {
-  background-image: url(./images/rivages.jpg);
+  background-image: url(./images/rivagesa.png);
   height: calc(100vh);
+  width: calc(100vw);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;

@@ -67,6 +67,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
+  background-position: center;
 }
 
 .up_circuit_ville,
@@ -83,12 +84,13 @@
 }
 
 #section1 {
-  background-image: url(./images/zaralek.jpg);
+  background-image: url(./images/zaraleka.png);
   height: calc(100vh);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 #section2 {

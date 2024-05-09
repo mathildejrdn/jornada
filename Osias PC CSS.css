@@ -128,7 +128,7 @@
   justify-content: space-evenly;
 }
 .theme button {
-  width: 231px;
+  width: 220px;
   height: 367.67px;
   margin: 0px 12px;
   margin-bottom: 15px;
@@ -170,7 +170,7 @@
   border-radius: 15px;
 }
 .Culture {
-  background-image: url(/images/ritual.jpg);
+  background-image: url(/images/culture.png);
   background-position: center;
   background-size: auto;
   border-radius: 15px;
