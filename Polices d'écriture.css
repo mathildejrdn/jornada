@@ -142,10 +142,20 @@ h3 {
   font-family: var(--font1);
 }
 
+h4 {
+  font-size: var(--size3);
+  color: var(--accentColor2);
+  text-align: center;
+  font-family: var(--font1);
+  text-shadow: var(--accentColor2) 1px 0 10px;
+}
 p {
   font-size: var(--size4);
   color: var(--txtColor2);
   font-family: var(--font2);
+}
+i {
+  font-style: italic;
 }
 
 txt {
