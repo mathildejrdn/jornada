@@ -121,31 +121,34 @@
       </div>
     </div>
     <div id="section4">
-     <h2>Nos agences à côté de chez vous</h2>
-      <div class="row">
-        <div class="column">
-          <img
-            src="/images/Orgrimar.jpg"
-            style="max-width: 100px"
-            onclick="myFunction(this);"
-          />
-        </div>
-        <div class="column">
-          <img
-            src="/images/hurlevent.jpg"
-            style="max-width: 100px"
-            onclick="myFunction(this);"
-          />
-        </div>
-      </div>
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn"
-          >&times;</span
-        >
-        <img id="expandedImg" style="width: 55%" />
-        <div id="imgtext"></div>
-      </div>
-    </div>
+      <article><h2>Nos agences à côté de chez vous</h2>
+     <div class="aonglets">
+      <span class="aonglet_0 aonglet" id="aonglet_agency1" onmouseover="javascript:change_aonglet('agency1');">                           Orgrimmar                    </span>                                    <span class="aonglet_0 aonglet" id="aonglet_agency2" onmouseover="javascript:change_aonglet('agency2');">                           Hurlevent                    </span>                                                                                                                                 
+</div>
+       
+<div class="contenu_aonglets">
+                                                                       
+<div class="contenu_aonglet" id="contenu_aonglet_agency1">
+                                                                                
+<img src="https://www.mamytwink.com/upload/news/2017/decembre/01/ambassade-orgrimmar-01.jpg"/>
+                       
+<div class="agency_statut">
+<h4>Orgrimmar</h4> /way 37.84, 81.08 Ouverte du Lundi au vendredi                                                                
+</div>
+                                                         
+</div>
+                                                                         
+<div class="contenu_aonglet" id="contenu_aonglet_agency2">
+                                                        
+<img src="https://www.mamytwink.com/upload/news/2017/decembre/01/ambassade-des-races-alliees-wow.jpg"/>
+          
+<div class="agency_statut">
+<h4>Hurlevent</h4> /way 52.13, 13.53 Ouverte du Lundi au vendredi                                            
+</div>
+                                                         
+</article>                                                                   
+                                                         
+</div>
 
     <div id="section5">
       <article><h2>Avis client</h2>
@@ -223,12 +226,18 @@ Je reviendrai volontiers et ne manquerai pas de faire passer le mot !</txt>
     });
 
     //Galerie d’images à onglets section4
-    function myFunction(imgs) {
-      var expandImg = document.getElementById("expandedImg");
-      var imgText = document.getElementById("imgtext");
-      expandImg.src = imgs.src;
-      imgText.innerHTML = imgs.alt;
-      expandImg.parentElement.style = "display: flex; justify-content: center;";
-    }
+    function change_aonglet(name)
+                     {
+                            document.getElementById('aonglet_'+anc_aonglet).className = 'aonglet_0 aonglet';
+                            document.getElementById('aonglet_'+name).className = 'aonglet_1 aonglet';
+                            document.getElementById('contenu_aonglet_'+anc_aonglet).style.display = 'none';
+                            document.getElementById('contenu_aonglet_'+name).style.display = 'block';
+                            anc_aonglet = name;
+                     }
+                                                                                                                                          
+                    let anc_aonglet = 'agency1';
+                    change_aonglet(anc_aonglet);
+          
+          
   </script>
 </html>

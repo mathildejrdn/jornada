@@ -113,6 +113,43 @@
   align-items: center;
   box-sizing: border-box;
 }
+/*section 4*/
+.aonglets {
+  text-align: center;
+}
+
+.aonglet {
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: var(--size2);
+}
+
+.aonglet_1 {
+  color: var(--accentColor2);
+}
+
+.contenu_aonglet {
+  display: none;
+  margin-top: -30px;
+}
+
+.contenu_aonglet {
+  color: var(--txtColor);
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.contenu_aonglet img {
+  width: 100%;
+}
+
+.agency_statut {
+  padding: 2%;
+  text-align: center;
+  font-size: var(--size4);
+}
 
 /*section 5*/
 .avis {
