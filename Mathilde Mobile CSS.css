@@ -52,14 +52,14 @@
 }
 
 .ville-debout {
-  width: 361px;
-  height: 361px;
+  width: 450px;
+  height: 300px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 .ville-allonge {
-  width: 361px;
-  height: 361px;
+  width: 450px;
+  height: 300px;
 }
 .ville-1 {
   background-image: url("./images/wp11717197-world-of-warcraft-dragonflight-wallpapers.jpg");
@@ -121,7 +121,6 @@
 .aonglet {
   cursor: pointer;
   display: inline-block;
-
   font-size: var(--size2);
 }
 

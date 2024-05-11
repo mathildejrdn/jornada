@@ -103,12 +103,45 @@ video {
   --size3: 1.25em;
   --size4: 1em; /*correspond à 16px pour le font-size*/
   --font1: "Grenze", serif;
-  --font2: "Noto Sans", sans-serif;
+  --font2: "Noto Sans";
 }
 
-/*Polices d'écritures
+/*Polices d'écritures*/
+@font-face {
+  font-family: "Noto Sans";
+  src: url("NotoSans-Bold.woff2") format("woff2"),
+    url("NotoSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
-à définir */
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./polices/NotoSans-Italic.woff2") format("woff2"),
+    url("./polices/NotoSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("./polices/NotoSans-Regular.woff2") format("woff2"),
+    url("./polices/NotoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Grenze";
+  src: url("./polices/Grenze-Regular.woff2") format("woff2"),
+    url("./polices/Grenze-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* couleurs & style des textes*/
 
@@ -116,7 +149,7 @@ h1 {
   font-size: var(--size1);
   color: white;
   text-shadow: #fc0 1px 0 10px;
-  font-family: "Grenze", serif;
+  font-family: var(--font1);
 }
 
 h2bis {
