@@ -145,8 +145,9 @@
 }
 
 .agency_statut {
+  font-family: var(--font2);
   padding: 2%;
-  text-align: center;
+  text-align: left;
   font-size: var(--size4);
 }
 

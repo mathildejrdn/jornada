@@ -191,6 +191,15 @@ i {
   font-style: italic;
 }
 
+strong {
+  color: var(--accentColor2);
+  font-size: var(--size3);
+  font-family: var(--font1);
+  font-weight: bold;
+}
+u {
+  text-decoration: underline var(--accentColor2);
+}
 txt {
   color: var(--txtColor);
   font-size: var(--size4);
