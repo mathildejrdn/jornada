@@ -88,8 +88,8 @@ input[type="date"] {
   
 .rating{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
 }
 .rating a {
