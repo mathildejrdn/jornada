@@ -548,3 +548,13 @@ article {
   margin: auto;
   padding: 30px;
 }
+
+.v-texte-debout {
+  text-align: center;
+  align-content: center;
+  padding: 15px;
+}
+.v-texte-allonge {
+  align-content: end;
+  padding: 15px;
+}

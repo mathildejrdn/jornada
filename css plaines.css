@@ -91,18 +91,6 @@
   background-attachment: fixed;
 }
 
-#section2 {
-  background-color: white;
-}
-
-#section3 {
-  background-color: pink;
-}
-
-#section4 {
-  background-color: black;
-}
-
 @media all and (min-width: 1024px) {
   /*flexbox section2*/
   #section2 article {
@@ -186,10 +174,7 @@
   margin-bottom: 15px;
   justify-items: center;
 }
-/*text*/
-.theme button {
-  text-shadow: 3px 3px 9px #000000;
-}
+
 /*btn background*/
 .Illustration1 {
   background-image: url(/images/plaines1.jpg);

@@ -157,14 +157,7 @@
     height: 361px;
   }
 }
-/*text align*/
-.v-texte-debout {
-  text-align: center;
-  align-content: center;
-}
-.v-texte-allonge {
-  align-content: end;
-}
+
 #section2 .v-texte-allonge h3 {
   margin-left: 15px;
 }
