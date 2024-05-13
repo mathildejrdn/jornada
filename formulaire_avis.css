@@ -80,12 +80,12 @@ input[type="date"] {
     text-decoration: none;
 }
 #btn-ferme a:active{
-    color: aliceblue;}
+    color: aliceblue;
+}
 
 #btn-ferme a:hover{
-    color: aliceblue;    
-
-}  
+    color: aliceblue;
+}   
 /*animation label*/
 .animation_label{
     position: absolute;
@@ -99,3 +99,26 @@ input[type="date"] {
     margin-top: -20px;
     font-size: 0.5em; /* Ajuste o tamanho da fonte conforme necessário */
   }
+  /*étoiles*/
+  
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rating a {
+    float: right;
+    color: gray;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+  
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: #56be6d;
+    cursor: pointer;
+ }
