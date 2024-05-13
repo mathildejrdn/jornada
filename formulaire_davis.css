@@ -73,19 +73,19 @@ input[type="date"] {
     width: 100%;
 }
 /*btn Ferme*/
-#btn-ferme{
+#btn-ferme a {
     font-size: 4em;
     font-weight: 900;
-    color: aliceblue;
+    color: #e7f0f8b9;
     text-decoration: none;
 }
-#btn-ferme::after {
+#btn-ferme :after {
     content: "";
   }
-#btn-ferme:active{
+#btn-ferme a:active{
     color: aliceblue;}
 
-#btn-ferme:hover{
+#btn-ferme a:hover{
     color: aliceblue;    
 
 }  
