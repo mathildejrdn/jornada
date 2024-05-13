@@ -72,6 +72,20 @@ input[type="date"] {
     letter-spacing: 2px;
     width: 100%;
 }
+/*btn Ferme*/
+#btn-ferme a {
+    font-size: 4em;
+    font-weight: 900;
+    color: #e7f0f8b9;
+    text-decoration: none;
+}
+#btn-ferme a:active{
+    color: aliceblue;
+}
+
+#btn-ferme a:hover{
+    color: aliceblue;
+}   
 /*animation label*/
 .animation_label{
     position: absolute;
