@@ -94,8 +94,7 @@ video {
 :root {
   --background: #ededed; /*couleur de fond*/
   --background2: #00000059;
-  --accentColor: red; /*couleur d'accent numéro 1*/
-  --accentColor2: #56be6d; /*couleur d'accent numéro 2*/
+  --accentColor: #56be6d; /*couleur d'accent*/
   --txtColor: #383838; /*variable pour la couleur du texte sur les pages*/
   --txtColor2: white; /*variable couleur du texte sur les images*/
   --size1: 3.125em;
@@ -157,15 +156,15 @@ h2bis {
   color: white;
   text-align: center;
   font-family: var(--font1);
-  text-shadow: var(--accentColor2) 1px 0 10px;
+  text-shadow: var(--accentColor) 1px 0 10px;
 }
 
 h2 {
   font-size: var(--size1);
-  color: var(--accentColor2);
+  color: var(--accentColor);
   text-align: center;
   font-family: var(--font1);
-  text-shadow: var(--accentColor2) 1px 0 10px;
+  text-shadow: var(--accentColor) 1px 0 10px;
 }
 
 h3 {
@@ -177,10 +176,10 @@ h3 {
 
 h4 {
   font-size: var(--size3);
-  color: var(--accentColor2);
+  color: var(--accentColor);
   text-align: center;
   font-family: var(--font1);
-  text-shadow: var(--accentColor2) 1px 0 10px;
+  text-shadow: var(--accentColor) 1px 0 10px;
 }
 p {
   font-size: var(--size4);
@@ -192,13 +191,13 @@ i {
 }
 
 strong {
-  color: var(--accentColor2);
+  color: var(--accentColor);
   font-size: var(--size3);
   font-family: var(--font1);
   font-weight: bold;
 }
 u {
-  text-decoration: underline var(--accentColor2);
+  text-decoration: underline var(--accentColor);
 }
 txt {
   color: var(--txtColor);
@@ -208,6 +207,16 @@ txt {
 a {
   text-decoration: none;
 }
+
+h3 a:visited {
+  color: white;
+  text-decoration: none;
+}
+li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 /*haut de page commun à toutes les pages*/
 /* haut de page*/
 btn {
@@ -408,12 +417,12 @@ li {
   height: 45px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: red;
+  color: var(--accentColor);
   font-size: 16px;
 }
 
 .searchTerm:focus {
-  color: #56be6d;
+  color: var(--txtColor);
 }
 
 .searchButton {
