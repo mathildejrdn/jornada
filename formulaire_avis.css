@@ -86,16 +86,19 @@ input[type="date"] {
   }
   /*étoiles*/
   
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 .rating a {
     float: right;
     color: gray;
     text-decoration: none;
     font-size: 3em;
     transition: color .4s;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
+  
  }
  .rating a:hover,
  .rating a:focus,
@@ -103,8 +106,4 @@ input[type="date"] {
  .rating a:focus ~ a {
     color: #56be6d;
     cursor: pointer;
- }
- .rating a:focus{
-    background-color: #56be6d;
-   
  }
