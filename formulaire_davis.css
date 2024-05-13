@@ -79,9 +79,6 @@ input[type="date"] {
     color: #e7f0f8b9;
     text-decoration: none;
 }
-#btn-ferme :after {
-    content: "";
-  }
 #btn-ferme a:active{
     color: aliceblue;}
 
