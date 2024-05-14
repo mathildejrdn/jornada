@@ -62,20 +62,20 @@
   height: 300px;
 }
 .ville-1 {
-  background-image: url("./images/wp11717197-world-of-warcraft-dragonflight-wallpapers.jpg");
+  background-image: url("./images/rivagesb.jpg");
   object-fit: cover;
   background-size: cover;
   border-radius: 15px;
 }
 .ville-2 {
-  background-image: url("./images/reivagesa.jpeg");
+  background-image: url("./images/wp11717197-world-of-warcraft-dragonflight-wallpapers.jpg");
   object-fit: cover;
   background-size: cover;
   border-radius: 15px;
   background-position: right;
 }
 .ville-3 {
-  background-image: url(./images/traveea.png);
+  background-image: url(./images/traveea.jpg);
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,11 +83,12 @@
   background-position: center;
 }
 .ville-4 {
-  background-image: url(./images/zaraleka.png);
+  background-image: url(./images/zaraleka.jpg);
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
+  background-position: center;
 }
 .ville-5 {
   background-image: url("./images/emeraudea.png");
@@ -141,7 +142,8 @@
   font-size: 20px;
 }
 .contenu_aonglet img {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .agency_statut {

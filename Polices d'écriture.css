@@ -189,6 +189,9 @@ p {
 i {
   font-style: italic;
 }
+b {
+  font-weight: bold;
+}
 
 strong {
   color: var(--accentColor);
@@ -213,7 +216,7 @@ h3 a:visited {
   text-decoration: none;
 }
 li a:visited {
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -412,7 +415,7 @@ li {
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #56be6d;
+  border: 3px solid var(--accentColor);
   border-right: none;
   height: 45px;
   border-radius: 5px 0 0 5px;
@@ -428,8 +431,8 @@ li {
 .searchButton {
   width: 40px;
   height: 45px;
-  border: 1px solid #56be6d;
-  background: #56be6d;
+  border: 1px solid var(--accentColor);
+  background: var(--accentColor);
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -557,4 +560,31 @@ article {
 .v-texte-allonge {
   align-content: end;
   padding: 15px;
+}
+
+input,
+label {
+  width: 80%;
+  border: 2px solid var(--accentColor);
+  height: 42px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--accentColor);
+}
+
+input:focus {
+  color: var(--txtColor);
+  font-family: var(--font2);
+}
+
+.emailButton {
+  width: 45px;
+  height: 43px;
+  background: var(--accentColor);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: var(--size3);
+  margin: -5px;
 }
