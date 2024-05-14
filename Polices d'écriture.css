@@ -210,13 +210,14 @@ txt {
 a {
   text-decoration: none;
 }
-
-h3 a:visited {
+footer a {
   color: white;
-  text-decoration: none;
 }
-li a:visited {
-  color: white !important;
+
+li,
+h3,
+p a:visited {
+  color: white;
   text-decoration: none;
 }
 
