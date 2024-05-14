@@ -142,14 +142,14 @@
   font-size: 20px;
 }
 .contenu_aonglet img {
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
 .agency_statut {
   font-family: var(--font2);
   padding: 2%;
-  text-align: left;
+  text-align: center;
   font-size: var(--size4);
 }
 

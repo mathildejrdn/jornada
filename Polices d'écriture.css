@@ -165,8 +165,8 @@ h2 {
   text-align: center;
   font-family: var(--font1);
   text-shadow: var(--accentColor) 1px 0 10px;
+  margin-bottom: 20px;
 }
-
 h3 {
   color: white;
   font-size: var(--size3);
@@ -214,8 +214,15 @@ footer a {
   color: white;
 }
 
-li,
-h3,
+li a:visited {
+  color: white;
+  text-decoration: none;
+}
+h3 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 p a:visited {
   color: white;
   text-decoration: none;
@@ -423,6 +430,7 @@ li {
   outline: none;
   color: var(--accentColor);
   font-size: 16px;
+  font-family: var(--font2);
 }
 
 .searchTerm:focus {
@@ -524,6 +532,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 10px;
 }
 
 /*sections communes*/

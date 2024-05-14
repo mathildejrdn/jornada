@@ -84,6 +84,14 @@
     width: 749px;
     height: 361px;
   }
+
+  #section5 article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+  }
 }
 /*text align*/
 .v-texte-debout {
