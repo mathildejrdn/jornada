@@ -509,6 +509,39 @@ footer {
   text-decoration: underline;
 }
 
+input,
+label {
+  width: calc(100% - 45px);
+  border: 2px solid var(--accentColor);
+  height: 42px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--accentColor);
+  box-sizing: border-box;
+}
+
+input:focus {
+  color: var(--txtColor);
+  font-family: var(--font2);
+}
+
+.emailButton {
+  width: 45px;
+  height: 42px;
+  background: var(--accentColor);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: var(--size3);
+  border: none;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
 .flinks {
   width: 100%;
   padding: 20px;
@@ -516,7 +549,6 @@ footer {
   text-align: left;
   line-height: 30px;
 }
-
 #flogo {
   display: flex;
   flex-direction: column;
@@ -570,31 +602,4 @@ article {
 .v-texte-allonge {
   align-content: end;
   padding: 15px;
-}
-
-input,
-label {
-  width: 80%;
-  border: 2px solid var(--accentColor);
-  height: 42px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: var(--accentColor);
-}
-
-input:focus {
-  color: var(--txtColor);
-  font-family: var(--font2);
-}
-
-.emailButton {
-  width: 45px;
-  height: 43px;
-  background: var(--accentColor);
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: var(--size3);
-  margin: -5px;
 }
